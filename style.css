@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    font-size: 11px; 
+}
+
+
+
+.header {
+    width: 595px;
+    
+    margin: auto;
+    left: 40%;
+    padding: 30px 48px 22px 48px;
+    box-shadow: 0 0 60px 0px ;
+    margin-top: 20px;
+    /* height:1000px; */
+    
+}
+
+header  {
+    height: 120px;
+}
+
+
+.mainInfo {
+    width: 330px;
+    
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.mainInfo h2 {
+    color: #2AAEE7;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.data1 {
+    margin-top: 20px;
+}
+.data1, .data2, .data3, .data4 {
+    display: inline-block;
+    width: 160px;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+
+.photo {
+    width: 99px;
+    height: 99px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.mainInfo, .photo {
+    float: left;
+    justify-content: center;
+}
+
+
+.picture {
+    height: 300%;
+    width: auto;
+    margin: -50px 0 0 70px
+
+}
+
+
+
+
+
+
+
+
+aside {
+    float: right;
+    
+    width: 200px;
+    
+}
+aside h2 {
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #73808D;
+}
+
+aside p {
+    font-size: 11px;
+    line-height: 18px;
+    margin-top: 5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+aside h3 {
+    color: #2AAEE7;
+    margin-top: 5px;
+    font-size: 11px;
+    
+}
+
+hr {
+	border-top: 1px solid #73808D;
+    border-bottom: 0;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+article {
+    width: 335px;
+}
+
+
+article h2 {
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #73808D; 
+}
+
+article h3 {
+    font-size: 15px;
+    
+}
+
+article h4 {
+    color: #2AAEE7;
+    margin-top: 3px;
+
+}
+
+article h5 {
+    font-size: 9px;
+    color: #73808D;
+    margin-top: 5px;
+}
+
+article hr {
+    margin-bottom: 10px;
+}
+
+article ul {
+    margin-top: 4px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    line-height: 18px;
+}
+
+.between {
+    margin-bottom: 15px;
+}
+
+.between2 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+footer {
+    margin-top: 10px;
+}
+
+footer img {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    /* vertical-align: middle; */
+    margin-bottom: 10px;
+    
+}
+
+footer p {
+    width: 135px;
+    line-height: 18px;
+    
+}
+
+footer p, footer img {
+    display: inline-block;
+    
+}
+
+.footBet {
+    margin-top: 10px;
+}
